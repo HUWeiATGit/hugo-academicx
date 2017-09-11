@@ -81,6 +81,15 @@ googleAnalytics = ""
     str_all = "More Posts"
     str_read_more = "Read more"
 
+  # Tutorial section.
+  # Section will only be displayed if there are posts in `content/post/`.
+  [params.tutorials]
+    count = 1
+    title = "Tutorials"
+    subtitle = ""
+    str_all = "More tutorials"
+    
+    
   # Projects section.
   # Section will only be displayed if there are projects in `content/project/`.
   [params.projects]
